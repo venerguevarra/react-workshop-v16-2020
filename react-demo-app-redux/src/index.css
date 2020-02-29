@@ -1,0 +1,188 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Work Sans', sans-serif;
+  background: #f4f4ef;
+}
+
+
+.center {
+  text-align: center;
+}
+
+a {
+  color: #636363;
+  text-decoration: none;
+  transition: all 0.5s ease-in;
+}
+
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+/* Navigation */
+
+
+.navbar {
+  background: #fff;
+  text-align: center;
+  padding: 1.5rem 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 5px 15px 0 rgba(46, 61, 73, 0.12);
+}
+
+
+.navbar h2 {
+  margin: 0;
+  font-weight: 200;
+  font-size: 30px;
+  letter-spacing: 4px;
+  font-family: 'Work Sans', sans-serif;
+}
+
+
+/* Post Styles */
+.post-container {
+  background: #fff;
+  padding: 50px;
+  width: 50%;
+  margin: 40px auto;
+  box-shadow: 0 5px 15px 0 rgba(46, 61, 73, 0.12);
+  font-family: 'Work Sans', sans-serif;
+}
+
+
+.post_heading {
+  text-align: center;
+  font-weight: 400;
+  font-size: 40px;
+  color: #636363;
+}
+
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.form input {
+  height: 44px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 1px solid #dbe2e8;
+  font-size: 14px;
+  border-radius: 2px;
+  color: #636363;
+  box-shadow: 0 2px 2px 0 rgba(46, 60, 73, 0.05);
+  outline: none;
+  width: 80%;
+}
+
+
+.form textarea {
+  width: 80%;
+  max-width: 80%;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  border: 1px solid #dbe2e8;
+  font-size: 14px;
+  border-radius: 2px;
+  color: #636363;
+  font-family: 'Work Sans,', sans-serif;
+  box-shadow: 0 2px 2px 0 rgba(46, 60, 73, 0.05);
+  outline: none;
+}
+
+
+/* All Posts */
+
+
+.all_post_heading {
+  text-align: center;
+  font-weight: 400;
+  font-size: 40px;
+  color: #636363;
+  word-wrap: break-word;
+}
+
+
+.post {
+  background: #fff;
+  width: 60%;
+  margin: 0 auto;
+  padding: 30px;
+  margin-bottom: 20px;
+  box-shadow: 10px 10px 12px 0 rgba(46, 60, 73, 0.05);
+}
+
+
+.form button {
+  background: #02b3e4;
+  padding: 15px 40px;
+  text-align: center;
+  color: #fff;
+  font-family: 'Work Sans', sans-serif;
+  border-radius: 4px;
+  border: none;
+  font-size: 20px;
+}
+
+
+.post_title {
+  text-align: center;
+  font-weight: 400;
+  font-size: 40px;
+  color: #636363;
+  word-wrap: break-word;
+}
+
+
+.post_message {
+  font-size: 25px;
+  font-weight: 200;
+  line-height: 2.5rem;
+  text-align: center;
+  word-wrap: break-word
+}
+
+
+.control-buttons {
+  display: flex;
+}
+
+
+.delete {
+  background: #ff7777;
+  border: none;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px 25px;
+  border-radius: 20px;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+}
+
+
+.edit {
+  background: #02b3e4;
+  ;
+  border: none;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px 25px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-right: auto;
+  outline: none;
+  color: #fff;
+}

@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+}
+
+.employee-list  {
+  border:1px solid #cbbfab;
+  list-style-type : none;
+  padding: 5px;
+  margin: 5px;
+}
+
+.employee {
+   border: 1px solid #ccc;
+   margin: 5px;
+   padding: 5px;
+}
